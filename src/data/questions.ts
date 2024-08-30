@@ -1,4 +1,4 @@
-import { Question } from "@/types/questions";
+import { Question } from "@/types/Questions";
 
 export const questions:Question[] = [
     {
@@ -10,5 +10,16 @@ export const questions:Question[] = [
             'Açucar'
         ],
         answer: 1
+    },
+
+    {
+        question:'Qual o melhor metodo de cozinhar?',
+        options: [
+            'Microondas',
+            'Fogão',
+            'Fogueira',
+            'Lança-Chamas'
+        ],
+        answer: 3
     }
 ]
